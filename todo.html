@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Todo List App</h1>
+        <div class="card">
+            <ul class="todo-list" id="todoList">
+                <li>
+                    <input type="checkbox" name="Egg" id="li"/>
+                    <span>Egg</span>
+                </li>
+                <li>
+                    <input type="checkbox" name="Banana" id="li"/>
+                    <span id="liBanana">Banana</span>
+                </li>
+                <li>
+                    <input type="checkbox" name="milk" id="li" />
+                    <span>Milk</span>
+                </li>
+                <li><input type="checkbox" name="Dryfruits" id="li"/>
+                    <span id="liDryfruits">Dryfruits</span> 
+                </li>
+
+                <li>
+                    <input type="checkbox" name="Read" id="li" />
+                    <span>Read</span>
+                </li>
+            </ul>
+
+            <form id="todoForm" action="#">
+                <input type="text" name="todo" id="todoInput" />
+                <button id="btnSubmit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./todo.js"></script>
+</body>
+
+</html>
